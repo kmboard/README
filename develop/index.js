@@ -18,7 +18,7 @@ const questions = [
  
     {
         type:'input',
-        name:'insallation',
+        name:'installation',
         message:'How does one install your application?',
     },
     {
@@ -30,7 +30,7 @@ const questions = [
         type:'list',
         name:'license',
         message:'Choose License',
-        choices: ['MIT','Apache License 2.0','GNU General Public License v3.0'],
+        choices: ['MIT','Apache License 2.0','GNU General Public License v3.0', {name: 'None' , value: ''}],
     },
     {
         type:'input',
